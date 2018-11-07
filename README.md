@@ -10,7 +10,11 @@ This is my spin on the bounty on bury mod. Let me know if anything should be add
 
 - Configurable to set 2 different fire graphics, amount of coin gained, amount of karma gained, the action time, the ability to burn corpses in forges/ovens/etc, and the message the player receives on burning.
 
-- Dragons and uniques cannot be burned.
+- Dragon and unique corpses cannot be burned.
+
+- Corpses cannot be burned in a vehicle.
+
+- Must have loot permissions to burn corpses.
 
 
 [Example GIF](https://i.imgur.com/PeKljpS.gifv)
