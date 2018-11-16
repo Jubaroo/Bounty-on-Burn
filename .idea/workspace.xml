@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54158361-530a-41c0-9f30-24bdb54542a5" name="Default Changelist" comment="" />
+    <list default="true" id="54158361-530a-41c0-9f30-24bdb54542a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/BurnAllAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Jubaroo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Jubaroo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BountyOnBurn.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BountyOnBurn.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bounty on Burn/org/jubaroo/mods/bountyonburn/Initiator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bounty on Burn/org/jubaroo/mods/bountyonburn/Initiator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/BurnCorpseAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/BurnCorpseAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/Initiator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/Initiator.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,18 +22,22 @@
     <session id="-350942936">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="4" />
+          <entry key="java" value="6" />
           <entry key="md" value="2" />
           <entry key="properties" value="1" />
         </counts>
@@ -32,7 +45,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="6" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
@@ -40,17 +53,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1528" />
-          <entry key="md" value="177" />
-          <entry key="properties" value="670" />
+          <entry key="java" value="2079" />
+          <entry key="md" value="313" />
+          <entry key="properties" value="922" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1528" />
-          <entry key="Markdown" value="152" />
+          <entry key="JAVA" value="2079" />
+          <entry key="Markdown" value="288" />
           <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Properties" value="670" />
+          <entry key="Properties" value="922" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -61,40 +74,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/Initiator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-618">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="422">
+              <caret line="137" column="167" selection-start-line="137" selection-start-column="167" selection-end-line="137" selection-end-column="167" />
+              <folding>
+                <element signature="e#4528#4529#0" expanded="true" />
+                <element signature="e#4557#4558#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="221">
-                <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+        <entry file="file://$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/BurnAllAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-602">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/BurnCorpseAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-244">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/BurnCorpseAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="111" column="28" lean-forward="true" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BountyOnBurn.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="340">
+              <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -139,9 +151,10 @@
         <option value="$PROJECT_DIR$/src/org/jubaroo/mods/requiem/actions/crystals/fire/BurnCorpseAction.java" />
         <option value="$PROJECT_DIR$/src/org/jubaroo/mods/requiem/BurnCorpseAction.java" />
         <option value="$PROJECT_DIR$/src/org/jubaroo/mods/requiem/Initiator.java" />
-        <option value="$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/Initiator.java" />
-        <option value="$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/BurnCorpseAction.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/BurnCorpseAction.java" />
+        <option value="$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/BurnAllAction.java" />
+        <option value="$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/Initiator.java" />
         <option value="$PROJECT_DIR$/BountyOnBurn.properties" />
       </list>
     </option>
@@ -153,18 +166,20 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1457" />
+    <option name="height" value="877" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,18 +198,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bountyonburn" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Bounty on Burn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541594693419" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542333756841" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Wurm JARS/lib" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -202,6 +214,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.jubaroo.mods.bountyonburn" />
       <recent name="org.jubaroo.mods.requiem" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -237,7 +250,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28791946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -246,7 +259,7 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -285,8 +298,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="221">
-            <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="120" selection-start-line="7" selection-start-column="120" selection-end-line="7" selection-end-column="120" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -294,24 +307,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BountyOnBurn.properties">
+    <entry file="file://$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/BurnAllAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/Initiator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-618">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="-602">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/BurnCorpseAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="111" column="28" lean-forward="true" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
+        <state relative-caret-position="-244">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/jubaroo/mods/bountyonburn/Initiator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="137" column="167" selection-start-line="137" selection-start-column="167" selection-end-line="137" selection-end-column="167" />
+          <folding>
+            <element signature="e#4528#4529#0" expanded="true" />
+            <element signature="e#4557#4558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BountyOnBurn.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
         </state>
       </provider>
     </entry>

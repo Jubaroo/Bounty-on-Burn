@@ -4,6 +4,9 @@ This is my spin on the bounty on bury mod. Let me know if anything should be add
 
 
 - Burn corpses for cash or karma!
+
+- Option to burn the body and items inside, or just the body. Can be toggled in the properties file. (requested feature)
+
 - Use any item that is on fire (aka "lit") or a steel and flint, to burn the corpses of slain creatures and players.
 
 - Activate your lit item or steel and flint, must be in your inventory(not in your backpack), right-click the corpse and choose burn body.

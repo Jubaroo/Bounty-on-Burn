@@ -20,16 +20,16 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class BurnCorpseAction implements ModAction, ActionPerformer, BehaviourProvider {
+public class BurnAllAction implements ModAction, ActionPerformer, BehaviourProvider {
     private ActionEntry actionEntry;
     private static Logger logger;
 
     static {
-        BurnCorpseAction.logger = Logger.getLogger(BurnCorpseAction.class.getName());
+        BurnAllAction.logger = Logger.getLogger(BurnAllAction.class.getName());
     }
 
-    BurnCorpseAction() {
-        actionEntry = ActionEntry.createEntry((short) ModActions.getNextActionId(), "Burn corpse", "burning", new int[]{
+    BurnAllAction() {
+        actionEntry = ActionEntry.createEntry((short) ModActions.getNextActionId(), "Burn all", "burning all", new int[]{
                 6 /* ACTION_TYPE_NO_MOVE */,
                 48 /* ACTION_TYPE_ENEMY_ALWAYS */,
                 36 /* ACTION_TYPE_ALWAYS_USE_ACTIVE_ITEM */
@@ -103,14 +103,20 @@ public class BurnCorpseAction implements ModAction, ActionPerformer, BehaviourPr
                 } else {
                     if (counter * 10f > action.getTimeLeft()) {
                         if (source.getTemplateId() == ItemList.corpse) {
+                            for (final Item i : source.getAllItems(false)) {
+                                Items.destroyItem(i.getWurmId());
+                            }
                             Items.destroyItem(source.getWurmId());
                         } else {
+                            for (final Item i : target.getAllItems(false)) {
+                                Items.destroyItem(i.getWurmId());
+                            }
                             Items.destroyItem(target.getWurmId());
                         }
                         performer.addMoney(Initiator.coinBounty);
                         performer.modifyKarma(Initiator.karmaBounty);
                         comm.sendNormalServerMessage(Initiator.bountyMessage);
-                        Initiator.jDebug(String.format("Player: %s performed BurnCorpseAction, on a %s, at Position X:%s, Y:%s", performer.getName(), target.getName(), x / 4, y / 4));
+                        Initiator.jDebug(String.format("Player: %s performed BurnAllAction, on a %s, at Position X:%s, Y:%s", performer.getName(), target.getName(), x / 4, y / 4));
                         return true;
                     }
                 }
